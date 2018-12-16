@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+  
+  <!--Using XMLs drawables instead od images will improve your app performance and it will make your life much easier even when upodating your app-->
+  
+  <stroke android:width="2dp" android:color="#FFFFFFFF" />
+  <gradient android:startColor="#DD777777" android:endColor="#DDB88BBB" android:angle="90"/>
+  <corners android:bottomRightRadius="15dp" android:bottomLeftRadius="15dp"/>
+
+</shape>
